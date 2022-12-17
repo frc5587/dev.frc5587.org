@@ -1,0 +1,74 @@
+site_name: Deep Blue Robotics
+theme: 
+  name: material
+  logo: images/logo.png
+
+extra:
+  social:
+    - type: github
+      link: https://github.com/kevinzwang/training
+
+repo_name: 'DeepBlueRobotics/training'
+repo_url: 'https://github.com/DeepBlueRobotics/training'
+
+extra_javascript: 
+    - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - mdx_math
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - 0. Java Basics: section-0/java.md
+  - 1. Setup and Version Control:
+    - Introduction: section-1/intro.md
+    - Setup: section-1/setup.md
+    - Version Control: section-1/version-control.md
+  - 2. Electronics and Pneumatics:
+    - Introduction: section-2/intro.md
+    - Electronics: section-2/electronics.md
+    - Pneumatics: section-2/pneumatics.md
+  - 3. Developing Robot Code:
+    - Introduction: section-3/intro.md
+    - Basic Control: section-3/basic-control.md
+    - Testing and Debugging: section-3/testing-and-debugging.md
+    - Subsystems and Commands: section-3/subsystems-and-commands.md
+    - Finding JavaDocs and Resources: section-3/finding-docs.md
+    - Advanced Version Control: section-3/version-control2.md
+    - Simulation: section-3/simulator.md
+  - 4. Drivetrain Project:
+    - Introduction: section-4/intro.md
+    - Teleoperated Period: section-4/teleop.md
+    - Autonomous Period: section-4/auton.md
+  - 5. Build Season Process:
+    - Introduction: section-5/intro.md
+    - Branch Organization: section-5/organization.md
+    - Task Delegation: section-5/delegation.md
+    - PRs and Code Reviews: section-5/pull-requests.md
+  - 6. Unit Testing:
+    - Introduction: section-6/intro.md
+    - Why Unit Tests?: section-6/why-tests.md
+    - Writing Tests: section-6/writing-tests.md
+    - Continuous Integration: section-6/ci.md
+  - 7. Advanced Programming:
+    - Introduction: section-7/intro.md
+    - Common Sensors: section-7/sensors.md
+    - PID Control: section-7/pid-control.md
+    - Odometry and Kinematics: section-7/odometry-kinematics.md
+    - Drivetrain Characterization: section-7/drivetrain-characterization.md
+    - Creating and Following Paths: section-7/pathweaver.md
+    - Limelight: section-7/limelight.md
+    - Swerve Drivetrains: section-7/swerve-drive.md
+  - Contributing: 
+    - Introduction: contributing/intro.md
+    - With Python: contributing/with-python.md
+    - With Docker: contributing/with-docker.md
+    - Yearly Checklist: contributing/yearly-checklist.md
+    - Resources: contributing/resources.md
+  - Resources: resources.md
